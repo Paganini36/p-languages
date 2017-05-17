@@ -1,0 +1,376 @@
+::selection{
+	background:#000;
+	color:#fff;
+}
+
+*{font-family:'Microsoft Sans Serif';}
+
+@font-face{
+	font-family:'Microsoft Sans Serif'; 
+	src: url(fonts/sans_serif.ttf);
+}
+
+a,
+input,
+button{
+	outline:none;
+}
+
+p{
+	margin:0;
+}
+
+ul{
+	padding:0;
+}
+
+	/*--------------------TOP_MENU--------------------*/
+	
+	.top_menu{
+		background:url("../img/top_menu_black.png");
+		line-height:30px;
+		font-size:16px;
+		text-align:left;
+		padding:5px 0;
+		font-family:proximanovaregular;
+	}
+	
+		.top_menu a{
+			color:#fff;
+		}
+		
+		.top_menu div ul li a:hover{
+			color:#436EEE;
+		}
+		
+		.top_menu>div>a{
+			margin:-15px 0 0 0;
+		}
+
+	/*--------------------FFASE--------------------*/
+		
+	.main_title {
+		color:#4169E1;
+	}
+	
+		.main_title h1{
+			margin:70px 0 0 0;
+			color:#4169E1;
+			font-size:40px;
+			font-weight: bold;
+			text-align:center;
+		}
+		.main_title h2{
+			margin:20px 0 20px 0;
+			color:#4169E1;
+			font-size:30px;
+			font-weight: bold;
+			text-align:center;
+		}
+		
+		.main_title>p{
+			margin:0 0 0 100px;
+		}
+		
+		.main_title>p>a{
+			color:#4169E1;
+			font-weight: bold;
+		}
+	
+	.fface_title{
+		color:#111;
+		padding:25% 20px 10px 50px;
+		text-align:center;
+		font-size:20px;
+	}
+	
+	@media(min-width:1170px){
+		.fface_title{
+			color:#111;
+			padding:5% 20px 10% 50px;
+			text-align:center;
+			font-size:30px;
+			font: bold;
+		}
+	}
+		.fface_title h1{
+			color:#4169E1;
+			font-size:40px;
+			font-weight: bold;
+		}
+		
+		.fface_title p{
+		}
+			
+			
+	.entering_form{
+		background-color:#fff;
+		border:1px #16222c solid;
+		border-radius:10px;
+		border: 5px ridge #4169E1;
+		color:#123;
+		margin: 40px 50px 0 50px;
+		padding:10px 5px;
+		text-align: center;
+	}
+		
+		.entering_form  h1{
+			font-size:25px;
+			padding: 0;
+		}
+		
+		.entering_form input[type="text"], input[type="password"], input[type="submit"]{
+			font-size:20px;
+			margin: 5px 0;
+		}
+	
+	.comment{
+		font-style:oblique;
+		color:#ff0000;
+	}
+	
+	.text_block{
+		padding:15px 50px 40px 100px;
+		font-size:25px;
+	}
+	
+		.text_block>div{
+			display:flex;
+			justify-content:space-between;
+			flex-wrap:wrap;
+			width:100%;
+		}
+	
+			.text_block>div>div{
+				display:flex;
+				justify-content:flex-start;
+				align-items:center;
+				margin-top:27px;
+			}
+	
+		.text_block h1{
+			color:#4169E1;
+			font-size:40px;
+			font-weight: bold;
+			text-align: center;
+		}
+		
+			.text_block>a>h1:hover{
+				color:#FF8C00;
+			}
+		
+		.text_block>div>div>a{
+			font-size:30px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		
+			.text_block>div>div>a:hover{
+				color:#FF8C00;
+			}
+		
+		.text_block>a{
+			color:#FF4500;
+			font-size:30px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		
+			.text_block>a:hover{
+				color:#FF8C00;
+			}
+		
+		.text_block ul{
+			font-size:25px;
+			margin: 0 0 0 50px;
+		}
+		
+			.text_block ul li{
+				font-size:25px;
+			}
+			
+				.text_block>ul>li>a{
+					color:#4169E1;
+					text-decoration:none;
+				}
+				
+					.text_block>ul>li>a:hover{
+						color:#FF8C00;
+					}
+			
+		.text_block div{
+			padding:10px 20px;
+		}
+		
+		.text_block p{
+			padding:0 0 20px 0;
+			font-size:20px;
+			display:block;
+		}
+	
+	.text_block_img{
+		margin:0 30px 0 -30px;
+	}
+	
+	.reg{
+		margin:50px 0 40px 0;
+		display:block;
+	}
+	
+		.reg p{
+			text-align: center;
+		}
+	
+	.block_reg_text{
+		font-size:25px;
+	}
+	
+		.block_reg_text ul{
+			list-style-type: none;
+		}
+		
+			.block_reg_text ul li{
+				list-style-type:none;
+				margin: 7px 0;
+			}
+		
+	.block_reg_edit{
+
+	}	
+		
+		.block_reg_edit ul{
+			list-style-type:none;
+		}
+		
+		.block_reg_edit input[type="text"], input[type="password"], input[type="submit"]{
+			font-size:20px;
+			margin:4px 0;
+		}
+	
+	/*--------------------LECTURE-------------------*/
+	
+	.str-left-top{
+		text-align:left;
+		margin:50px -10px 0 10px;
+	}
+	
+	.str-right-top{
+		text-align: right;
+		margin:50px 10px 0 -10px;
+	}
+	
+	.str-left-down{
+		text-align:left;
+		margin:-10px -10px 0 10px;
+	}
+	
+	.str-right-down{
+		text-align: right;
+		margin:-10px 10px 0 -10px;
+	}
+	
+	.link_back{
+		text-align: center;
+		margin:30px 0 0 0;
+	}
+	
+		.link_back a{
+			font-size:20px;
+			font-weight:bold;
+			color:#4169E1;
+			text-decoration:underline;
+		}
+					
+			.link_back a:hover{
+				color:#191970;
+				text-decoration:none;
+			}
+	/*--------------------SLIDER--------------------*/
+	
+	.body_slides{
+		list-style:none;
+		margin:0;
+		padding:0;
+		z-index:-2; 
+		background:#000;
+	}
+	.body_slides,.body_slides:after{
+		position: absolute;
+		width:100%;
+		height:700px;
+		top:0px;
+		left:0px;
+	}
+	.body_slides:after { 
+		content: '';
+		background: transparent url('../img/pattern.png') repeat top left;
+	}
+	
+		.body_slides li:nth-child(1){
+			background-image: url('../img/picture1.jpg');
+			
+		}
+		.body_slides li:nth-child(2){			
+			-webkit-animation-delay: 5.0s;
+			-moz-animation-delay: 5.0s;
+			-o-animation-delay: 5.0s;
+			animation-delay: 5.0s;
+			background-image: url('../img/picture2.jpg') 
+		}
+		.body_slides li:nth-child(3){
+			-webkit-animation-delay: 10.0s;
+			-moz-animation-delay: 10.0s;
+			-o-animation-delay: 10.0s;
+			animation-delay: 10.0s;
+			background-image: url('../img/picture3.jpg') 
+		}
+		.body_slides li:nth-child(4){
+			-webkit-animation-delay: 15.0s;
+			-moz-animation-delay: 15.0s;
+			-o-animation-delay: 15.0s;
+			animation-delay: 15.0s;
+			background-image: url('../img/picture4.jpg'); 
+		}
+				
+		.body_slides li{
+			width:100%; height:100%;
+			position:absolute; top:0; left:0;
+			background-size:cover; 
+			background-repeat:none;
+			background-attachment: scroll;
+			opacity:0;
+			-webkit-animation: anim_slides 20s linear infinite 0s;
+			-moz-animation: anim_slides 20s linear infinite 0s;
+			-o-animation: anim_slides 20s linear infinite 0s;
+			-ms-animation: anim_slides 20s linear infinite 0s;
+			animation: anim_slides 20s linear infinite 0s;
+		}
+		
+		@keyframes anim_slides {
+			0% {opacity:0;}
+			6% {opacity:1;}
+			24% {opacity:1;}
+			30% {opacity:0;}
+			100% {opacity:0;}
+		}
+		@-o-keyframes anim_slides {
+			0% {opacity:0;}
+			6% {opacity:1;}
+			24% {opacity:1;}
+			30% {opacity:0;}
+			100% {opacity:0;}
+		}
+		@-webkit-keyframes anim_slides {
+			0% {opacity:0;}
+			6% {opacity:1;}
+			24% {opacity:1;}
+			30% {opacity:0;}
+			100% {opacity:0;}
+			
+		}@-moz-keyframes anim_slides {
+			0% {opacity:0;}
+			6% {opacity:1;}
+			24% {opacity:1;}
+			30% {opacity:0;}
+			100% {opacity:0;}
+		}
